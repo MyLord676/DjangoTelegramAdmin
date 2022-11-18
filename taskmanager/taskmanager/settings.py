@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wbrv=7i)yi6(_8%_gpj$5#61!31+gw(=jdyczn#fiep1=)znr0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -137,11 +137,3 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-# Telegram bot
-
-TOKEN = '5763587128:AAE9kdleVWQyJs2R1zoXuSKgxBkbD1PymGg'
-
-MAX_TOKEN_REQUEST = 3
-
-TIME_BETWEEN_NOTIFY = 3
