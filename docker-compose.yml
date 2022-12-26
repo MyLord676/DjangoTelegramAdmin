@@ -5,7 +5,7 @@ services:
     tgadmin:
            build: "./"
            deploy:
-               replicas: 1
+                replicas: 1
            restart: "no"
            network_mode: host
            volumes:
